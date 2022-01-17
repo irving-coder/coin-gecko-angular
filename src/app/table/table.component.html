@@ -1,9 +1,8 @@
 <table>
   <thead>
-    <th>Encabezado 1</th>
-    <th>Encabezado 2</th>
-    <th>Encabezado 3</th>
-    <th>Encabezado 4</th>
+    <th *ngFor='let title of titles'>
+      {{title}}
+    </th>
   </thead>
   <tbody>
     <tr>

@@ -5,5 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './table.component.html'
 })
 export class TableComponent{
-  title = 'table-component';
+  // title = 'table-component';
+
+  titles: String[] = [
+    '#',
+    'Coin',
+    'Price', 
+    'Price Change',
+    '24h Volume'
+  ]
 }
